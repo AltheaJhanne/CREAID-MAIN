@@ -47,5 +47,6 @@ export const app = new Elysia({
 .use(patientRoutes)
 .use(reportsRoutes)
 .use(expensesRoutes)
-.use(dailyReportsRoutes);
+.use(dailyReportsRoutes)
+export default app.fetch;
 
