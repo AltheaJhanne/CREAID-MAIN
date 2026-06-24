@@ -2,10 +2,9 @@
   "name": "dentconnect-api",
   "version": "1.0.0",
   "type": "module",
-"scripts": {
-  "dev": "tsx watch src/dev.js",
-  "build": "echo build"
-},
+  "scripts": {
+    "dev": "tsx watch src/dev.js"
+  },
   "dependencies": {
     "@elysiajs/cors": "^1.1.1",
     "@elysiajs/node": "^1.4.5",
