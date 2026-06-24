@@ -1,3 +1,6 @@
-import { app } from "../src/app.js";
-
-export default app.fetch;
+export default function handler(req, res) {
+  res.status(200).json({
+    success: true,
+    message: "vercel works"
+  });
+}
